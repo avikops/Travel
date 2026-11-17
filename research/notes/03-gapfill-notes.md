@@ -1,0 +1,12 @@
+# 03 gap-fill notes (2026-11-17)
+
+Search count tracked inline. Budget: 60.
+
+## Batch 1 (searches 1-5)
+
+- **Mount Misen**: AIID cite 1635 lists "Dana Yao and husband Robert" used ChatGPT for sunset hike; ChatGPT said last ropeway 5:30pm; ropeway already closed; stranded. AIID cites a watson.de report; BBC connection not confirmed in results. Date in AIID 2025-09-29 (same as Humantay BBC feature date on OECD). [claimed, AIID secondary]. https://incidentdatabase.ai/cite/1635/
+  - Related: OECD incident 2025-05-26 "Hikers stranded ... after relying on ChatGPT" (BC, Canada, Unnecessary Mountain), https://oecd.ai/en/incidents/2025-05-26-63e6 ; Suzhou man rescued after AI hiking recommendation (The Standard HK) https://www.thestandard.com.hk/china/article/340167/
+- **Weldborough Hot Springs**: VERIFIED. The New Daily 2026-02-02. Tasmania Tours (Australian Tours and Cruises), "7 Best Hot Springs Tasmania Experiences for 2026", posted Jul 2025, AI-generated; owner Scott Hennessey says published unchecked while overseas; Weldborough Hotel (Kristy Probert) fielded visitors; also listed Savage River, Liawenee falsely; content removed. https://www.thenewdaily.com.au/travel/2026/02/02/tasmania-hot-springs
+- **Beli**: no public API. Partnerships: Resy reservations in-app (https://blog.resy.com/newsroom/resy-launches-reservations-in-beli/), Grubhub ordering (Jun 2026, NRN https://www.nrn.com/restaurant-delivery/diners-can-now-order-grubhub-on-eater-beli-and-more), earlier OpenTable. Scale: 120M+ ratings, 2M establishments, 50k+ cities (Boston Globe Aug 2026 https://www.bostonglobe.com/2026/08/04/lifestyle/beli-restaurant-rating-app/). CEO talks of building diner-preference database; planned restaurant "Insight Suite" (Ivey). No data-licensing deal found. [verified partnerships; claimed scale]
+- **Corner / Mapstr**: no APIs found. Corner converts TikTok/IG links into pins; free, no IAP. Mapstr imports from Google/FSQ/Apple/CSV/KML; 2016 TechCrunch said Mapstr planned an API — never seen. [verified absence in search]
+- **Fever**: has a developer portal (developer.feverup.com) and Experience Distribution Platform: API connection to catalogue with real-time availability, wholesale pricing; affiliate program (free to join, commissions vary; Tradedoubler lists 8%); feeds/custom API for larger partners. [verified vendor pages] https://developer.feverup.com/ https://business.feverup.com/en/partner-programs/experience-distribution-platform/ https://business.feverup.com/en/partner-programs/affiliate-program/
