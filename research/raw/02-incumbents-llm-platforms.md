@@ -4,6 +4,12 @@
 
 **Method and limits.** Everything here comes from web search result snippets and summaries. WebFetch could not reach primary domains from this container (phocuswire.com, geekwire.com, blog.google and techcrunch.com all failed DNS), so I could not read full primary articles. The shared search budget also ran out before I could check Tripadvisor's 2026 strategy, Google AI Mode's restaurant-booking partners, or Airbnb Experiences in detail. Those gaps are marked **[prior knowledge, not re-verified]**.
 
+**Gap-fill pass (17 Nov 2026).** A second pass ran 58 shared-budget web searches across files 01 and 02, again with no WebFetch. Raw notes are in `research/notes/01-02-gapfill-notes.md`.
+- It **resolved all three [prior knowledge] items**: Google AI Mode restaurant partners, Airbnb Experiences, and the Tripadvisor 2026 strategy.
+- It added 2026 facts on Google AI Mode flights and Chrome auto browse, Expedia's Fall 2026 release and Romie's retirement, Kayak Ask AI, Trip.com TripGenie, Meta Muse, Apple iOS 27, Airbnb's Q3 call, and consumer auto-rebooking by airlines.
+- It corrected Vayo's booking status.
+- Perplexity, Microsoft Copilot and Hopper's consumer app produced **no 2026 travel news**. That absence is noted rather than filled with older facts.
+
 Evidence tags:
 - **[verified]**: several independent outlets or a primary source agree.
 - **[claimed]**: the vendor's statement, or a single outlet.
@@ -18,13 +24,17 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
 1. **Plan in the AI, book with the brand.** In 2026 the market settled on this model [verified]:
    - **OpenAI** pulled back Instant Checkout in early March 2026 and moved transactions to partner apps inside ChatGPT.
    - **Google** launched agentic hotel booking in AI Mode on 27 Aug 2026, but Google is **not merchant of record**. The partner handles service, changes and refunds.
-   - **Meta Muse + Expedia** (live Nov 2026) books, but does **not** handle cancellations or rebooking.
+   - **Meta Muse + Expedia** (live Nov 2026) books, but does **not** handle cancellations or rebooking. Meta calls travel "a top use case" for Muse and wants a cut of transactions [verified, Skift 21 Oct 2026].
    - **Expedia's CEO:** agents are "strongest in discovery", and travelers still book with trusted brands.
    - **Booking Holdings:** LLM referrals are "significantly less than 1%" of Booking.com room nights.
 2. **Nobody owns the trip end to end.** General AI platforms deliberately avoid liability (no merchant of record, no servicing). OTAs own servicing but only for their own inventory. Corporate tools (Navan, Perk, Spotnana, Egencia) are the only segment with real duty of care, policy logic, 24/7 human escalation and automated disruption rebooking. They are B2B-only.
 3. **OTAs are consolidating AI planners.**
-   - Expedia bought **Layla** (31 Jul 2026) and moved from the single Romie concierge to "specialised agents".
-   - Booking Holdings launched **Lola** (29 Sep 2026), a separate service run by Kayak co-founders Hafner and English. It books hotels, restaurants, events and activities in chat, with $5 and $25/month memberships. Booking Holdings is also testing **Vayo** in private beta.
+   - Expedia bought **Layla** (31 Jul 2026) and moved from the single Romie concierge, now reportedly retired, to specialised "point agents". Its Fall 2026 release shipped 30+ AI features, including an end-to-end Hotels.com AI agent.
+   - Booking Holdings launched **Lola** (29 Sep 2026), a separate service run by Kayak co-founders Hafner and English.
+     - It books hotels, restaurants, events and activities in chat, and **now flights (via Duffel)**.
+     - Memberships are $5 and $25/month.
+     - It is US-only and backed by a conditional **$100M commitment**.
+   - Booking Holdings is also testing **Vayo** in private beta. Vayo has the same $100M commitment and books only restaurants so far.
    - Priceline rebuilt **Penny** on Claude (Jun 2026), with flight purchase inside the conversation.
    - Airbnb plans a standalone AI travel agent for **H1 2027** that is "not limited to Airbnb's platform".
 4. **Suppliers are starting to resist agents.** United Airlines changed its contract of carriage on 11 Nov 2026 to ban unauthorised third-party AI agents from making, modifying or servicing tickets [verified: Bloomberg, WaPo, Forbes, TechCrunch]. Delta and American did not follow. Bank of America warned customers not to share credentials with AI assistants. Delta's own AI Concierge wrongly cancelled a passenger's ticket (Aug 2026). Agentic booking through scraped consumer sessions is becoming legally and technically fragile.
@@ -33,6 +43,7 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
    - Wrong last-cable-car time on Mount Misen, Japan; travelers were stranded.
    - Invented "Weldborough Hot Springs" in Tasmania.
    - Informal 2026 tests show Gemini, ChatGPT and Grok itineraries with closed venues, wrong drive times and missed seasonality.
+   - A Greetwell survey of 1,000 US adults (Sep 2026) found **1 in 6** AI-using travellers had been recommended a place or tour that does not exist. 55% hit at least one bad recommendation, most often wrong prices or hours [verified, Stacker syndication].
 
    Google is the best-grounded general platform because of Maps' roughly 300M places and reviews from about 500M contributors. Even so, it gives no accountability when it is wrong.
 
@@ -52,8 +63,23 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - Google passes partners only the minimum booking data (name, payment, occupancy, property) and keeps the chat context and inspiration signals [claimed, Skift].
   - Google says ads do not currently influence AI Mode hotel rankings [claimed].
   - Independent hotels were not in the launch set [verified, Hotel-Online].
-- **AI Mode: flights.** Price tracking only. Purchase still hands off to the airline or OTA. "Flight booking not yet available" at hotel launch [verified]. Alaska and American were named as future flight partners [claimed].
-- **AI Mode: restaurants, event tickets, local appointments.** Agentic booking live in the US [verified via secondary, Nov 2025 reporting]. Restaurants need no Labs opt-in; events and appointments need Labs. My prior knowledge is that partners include OpenTable, Resy, Tock, Ticketmaster, StubHub, SeatGeek and Booksy **[prior knowledge, not re-verified]**.
+  - Re-checked mid-Nov 2026: **still US-only and English-only**. No country expansion was found [verified absence].
+- **AI Mode: flights** (27 Aug 2026 update) [verified: TechCrunch, View from the Wing, PhocusWire]
+  - Searches options across 300+ airlines and travel sites.
+  - Price tracking is available in 180+ countries and territories, **excluding the EEA**.
+  - Shows **loyalty-points prices** with launch partners Alaska, Hawaiian and American. Lufthansa Group, LATAM and Flying Blue (and Accor and Hyatt on the hotel side) are "coming".
+  - Award bookings hand off to the airline to redeem.
+  - **No in-chat flight purchase confirmed.** Google first flagged direct flight booking as a future plan in Nov 2025.
+- **AI Mode: restaurants, event tickets, local appointments** [verified: Google blog Aug and Nov 2025, TechRadar, GSMArena, Engadget, SEJ]
+  - Launch partners (Aug 2025): **OpenTable, Resy, Tock** for dining; **Ticketmaster, StubHub, SeatGeek** for events; **Booksy** for appointments. This confirms the earlier prior-knowledge list.
+  - Launched for US AI Ultra subscribers in Labs, then expanded to more US users in Nov 2025. Restaurants are broadly available; events and beauty/wellness appointments still need Labs.
+  - **Mechanism:** Google's own post says AI Mode checks real-time availability across reservation sites and **links to the partner's booking page so the user takes the last step**. It is a guided hand-off, not a Google-completed booking. Some secondary reports say "it makes the booking for you", but Google's wording is the more reliable source.
+- **Chrome auto browse** (28 Jan 2026, Gemini 3) [verified: Google blog and support page, Bloomberg]
+  - An agent in Chrome that can research hotel and flight prices across date options and **find and book accommodation** on third-party sites.
+  - Asks for confirmation before sensitive actions. Labelled experimental ("can make mistakes").
+  - Launched for US AI Pro and Ultra subscribers.
+  - Secondary reports (Jul 2026) say the long-running "Gemini Spark" agent now uses auto browse [claimed].
+  - This is Google's browser-agent route, separate from the partner-API route in AI Mode. It is exposed to the same supplier pushback as Comet (see United, §5).
 - **AI Mode Canvas.** Trip-plan workspace for US Labs users (Nov 2025) [verified].
 - **Personal Intelligence**
   - Opt-in linking of Gmail, Photos, Search history and YouTube to Gemini. Beta launched 14 Jan 2026 for US paid users. Added to AI Mode on 22 Jan 2026. Expanded to all US users in Mar 2026 and to Japan in Apr 2026 [verified: 9to5Google, TechCrunch, Google blog].
@@ -73,7 +99,7 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - Grounding: more than 300M places, reviews from about 500M contributors, and more than 2B monthly Maps users [claimed via GSMArena and MacRumors, citing Google].
 - **Gemini app**
   - Plans trips using Maps, Flights and Gmail.
-  - "Agent Mode" in Gemini 3.1 (Mar 2026) and a long-running agent reportedly called "Gemini Spark" can drive browsers and fill booking forms [claimed; demo-grade coverage].
+  - "Agent Mode" in Gemini 3.1 (Mar 2026) and a long-running agent reportedly called "Gemini Spark" can drive browsers and fill booking forms [claimed; demo-grade coverage]. Chrome auto browse (above) is the shipped version of this capability [verified].
   - A 2026 guide says Gemini's own help page lists that it **cannot book, cancel, check in or set alerts**. Booking happens in AI Mode instead [claimed].
   - Gemini Gems can act as persistent trip-planner personas.
 - **Google Flights "Flight Deals"**
@@ -86,7 +112,7 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
 |---|---|---|
 | Personalisation | **P4** (opt-in) | Personal Intelligence uses Gmail bookings, Photos history, Maps saves |
 | Granularity | **G3–G4** | Maps itineraries with pins and live availability; Maps has real transit data, but tests show drive-time and seasonality errors in Gemini output |
-| Booking | **B2** | Hotels (via partners), restaurants, events, appointments; no flights; no unified checkout across verticals |
+| Booking | **B2** | Hotels completed in-flow via Google Pay (10 partners, US only); restaurants, events and appointments are guided hand-offs to partner pages; flights are search, points and tracking only; Chrome auto browse can book on third-party sites (experimental); no unified checkout across verticals |
 | Live/on-trip | **L2–L3** | Itinerary inside navigation, real-time tips, Flights price tracking; no disruption re-planning |
 | Data grounding | Best of the general platforms | Maps POI graph (hours, popular times, reviews), Flights/Hotels feeds via ITA/partners, Gmail confirmations |
 | Collaboration | Medium | Shared lists, Docs export, Canvas; no real-time multi-user trip editing [inferred] |
@@ -123,6 +149,12 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - ChatGPT agent mode reportedly removed in early Aug 2026; the help centre points to "ChatGPT Work" and a cloud browser [claimed; no official release note found].
   - Earlier tests: Operator failed 2 of 3 airline booking runs (session timeouts, CAPTCHAs, price changes between search and checkout) [claimed, travelanywhere.blog].
 - **Ads.** Expedia went live with ChatGPT ads in Feb 2026 [claimed, GeekWire].
+- **Apps in practice** (Skift hands-on, 6 Jul 2026) [verified]:
+  - Connecting an app is not enough; the chatbot has to choose to use it.
+  - In Skift's test, the Booking.com, Expedia and Viator apps and connectors were **initially skipped** (Claude connectors were tested too).
+  - Sources conflict on whether checkout now runs inside the chat window or finishes on the partner site.
+- New 2026 travel apps include Lighthouse (hotels, Mar 2026) and Almosafer (Apr 2026) [claimed, vendor blog].
+- **Odessia acquisition** (10 Nov 2026): OpenAI bought an IATA-accredited AI travel agency and hired its founder, Francis Davidson, to work on travel. **No ChatGPT travel-booking product has been announced.** Any plan to sell travel directly is inference [verified; see file 01, §2.5].
 
 **Rubric.**
 - Personalisation P3: Memory persists across chats; no booking-history ingestion beyond what the user pastes or connects [inferred].
@@ -141,10 +173,12 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
 - **Hotel booking** [verified for the Mar 2025 launch; **older**]
   - Launched with Selfbook (booking and payments) and Tripadvisor (reviews), about 140k hotels.
   - Testers in 2025–26 found the booking option often did not appear: "a discovery layer, not a booking platform" [claimed].
-  - I found no 2026 documentation confirming it is still active [claimed, helloaxel].
+  - I found no 2026 documentation confirming it is still active [claimed, helloaxel]. Re-checked Nov 2026: still no 2026 hotel-booking announcement [verified absence].
+  - Tripadvisor management called Perplexity-referred customers "incremental" and "high intent" (2025 call) [verified, Skift].
 - **Comet browser**
-  - Agentic browser with Expedia and Booking.com as pilot partners [claimed, WiT].
+  - Agentic browser with Expedia and Booking.com as pilot partners [claimed, WiT]. Expedia launched with Comet in Oct 2025 and gives users Silver One Key status for using it [verified, PhocusWire].
   - Can complete bookings on supplier sites but pauses for user confirmation before payment. The sites own the sale and support [claimed].
+  - **2026 legal risk:** a US federal court temporarily barred Comet agents from accessing password-protected parts of Amazon to buy on users' behalf. The order was later suspended to allow an appeal [verified via secondary]. It is not travel-specific, but it is a precedent for agent access to logged-in consumer accounts.
 - **Rubric:** P2, G2, B1–B2 (inconsistent), L0–L1. Grounding: web retrieval with citations, which is good for freshness on popular topics but carries no structured POI hours. Accountability: none.
 - **Note:** United's agent ban targets exactly the Comet-style "drive the consumer site with my credentials" model [inferred].
 
@@ -153,7 +187,10 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
 - Copilot Actions (launched Apr–May 2025, Copilot Pro US first) lists partners: Booking.com, Expedia, Hotels.com, Kayak, OpenTable, Priceline, Tripadvisor, Skyscanner, Viator, Vrbo [verified on a Microsoft marketing page; **2025 info**].
 - Always asks for confirmation before acting.
 - Expedia announced integration with Copilot Actions (May 2025).
-- **I found no 2026 evidence of meaningful travel traction.**
+- **I found no 2026 evidence of meaningful travel traction**, and no 2026 consumer travel launch (re-checked Nov 2026) [verified absence].
+- Flights in Copilot run on Skyscanner's Flights API, which also powers Bing Flights [verified, 2025].
+- Corporate hotel provider CDS has opened hotel booking to Copilot and ChatGPT via MCP, with flights and cars planned for early 2027 [claimed, single outlet].
+- Context: an Expedia survey (Apr 2026) found **only 8%** of travellers comfortable handing booking to AI [verified, Skift].
 - Rubric: P2, G2, B1–B2, L0–L1. Accountability: none.
 - Relevance is mostly enterprise: SAP Concur Joule integrates with M365 Copilot, and Egencia's assistant runs in Teams (see §4).
 
@@ -177,6 +214,11 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - payment via **Stripe Link**;
   - **no cancellations or rebooking**: changes go to Expedia support as merchant of record.
 - **Agoda** integrated with Muse for Singapore and Japan (discover, book, manage itineraries) [claimed, Booking Holdings Q3 call].
+- **Flights:** some flight booking in Muse is enabled by **Duffel's API**, the same rail Lola uses [claimed, single outlet].
+- **Surfaces:** the Muse app (iOS/Android), muse.ai on the web, and WhatsApp. US [verified].
+- **Strategy:** Meta calls travel "a top use case" for Muse, and Zuckerberg wants a transaction cut [verified, Skift 21 Oct 2026].
+  - Truist called Muse a bigger OTA threat than earlier LLMs. Expedia shares fell about 7% on the partnership news [claimed].
+  - Airbnb's Chesky says Muse and similar general agents currently drive "little traffic and even fewer bookings" [verified, Q3 call].
 - **Mechanism is disputed.** Expedia describes an API integration; Conduit describes browser-driving of consumer sites.
 - **Distribution:** WhatsApp, Instagram and Facebook. Expedia had earlier put trip planning into Instagram DMs ("Trip Matching", 2025) [claimed].
 - Rubric: P2–P3 (potential social-graph P4, not evidenced), G2, B2 (hotels), L0. Accountability: delegated to the OTA.
@@ -187,7 +229,11 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - rebuilt Siri with personal context, screen awareness and deeper App Intents;
   - multi-step reasoning reportedly runs on a Gemini-based model under the Jan 2026 Apple–Google deal;
   - Maps added AI Flyover and "Local Lists" [claimed: Skift 8 Jun 2026, Geeky Gadgets].
-- Skift: Siri **cannot book a trip**. Its value is in-trip retrieval (confirmation codes, passport details, hotel address), with action delegated to apps via App Intents.
+- **Shipped:** iOS 27 with "Siri AI" was released on **14 Sep 2026** for Apple Intelligence iPhones (15 Pro and later). Its personal context draws on calendar and email with permission. Japanese followed in Oct [verified: Engadget, MacRumors].
+  - Early reviews call it "practical but plain" (Engadget).
+  - More Siri AI capability is staged into iOS 27.x (Macworld) [claimed].
+- Skift: Siri **cannot book a trip**. Its value is in-trip retrieval (confirmation codes, passport details, hotel address), with action delegated to apps via App Intents. Examples: find a booking, flight status, open check-in, loyalty details.
+- I found no Apple list of travel-specific Siri AI features post-launch [verified absence].
 - Rubric: P4 potential (on-device personal context), G1–G2, B0 (delegates to apps), L2. Accountability: none.
 - **Threat:** if iOS 27 Siri can see your Wallet passes, Mail confirmations and Maps, it becomes a very strong on-trip layer that no startup can match on iOS [inferred].
 
@@ -202,11 +248,23 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - pulls trip details from email;
   - suggests nearby restaurants;
   - monitors weather and disruption and suggests alternatives.
+  - **Now reportedly retired.** A Jun 2026 report quotes CPO Shilpa Ranganathan on why Expedia's first booking chatbots, Romie among them, stalled:
+    - users left when answers weren't tied to real inventory, rates and reservations;
+    - the fix took about a year and was "almost none of it model work", mostly evaluation framework and data plumbing [claimed, single outlet: hospitality.today].
+    - No official retirement notice was found.
 - **2026 strategy shift to "multi-agentic"** [verified: Skift 31 Jul 2026, TravelMole, HospitalityNet]:
   - acquired **Layla** (Berlin conversational planner covering flights, stays, activities, dining, transport);
   - says one do-everything concierge "isn't practical yet";
   - building specialised agents: a Hotels.com AI agent, an activities agent, natural-language search on Vrbo [claimed].
-  - Layla continues to run standalone; no integration date given.
+  - Layla continues to run standalone; no integration date given (re-checked Nov 2026).
+- **Fall 2026 product release** [verified: Expedia PR via HospitalityNet, PhocusWire]:
+  - **30+ AI features** across Expedia, Hotels.com and Vrbo, including natural-language search, AI comparison tools and a **voice agent**;
+  - the **Hotels.com AI Agent** puts conversational discovery, shopping and **servicing** behind one homepage entry point;
+  - Hotels.com **AI Compare** for shortlisted properties;
+  - **Property Expert** answers questions grounded in property data and guest reviews.
+  - Expedia now describes these as "point agents" for specific journey stages [claimed, hospitality.today].
+- **B2B agent access:** three Partner Central agents were shown at Explore (May 2026). Expedia is preparing a **B2B MCP server** so partners' AI agents can reach its inventory [verified, Skift 21 May 2026]. No announcement yet lets external agents book and pay autonomously over MCP.
+- **Trust data:** an Expedia survey (Apr 2026) found only **8%** of travellers comfortable letting AI book [verified, Skift].
 - **Distribution everywhere:**
   - ChatGPT app (Oct 2025) and ChatGPT ads (Feb 2026);
   - Claude connector (May 2026);
@@ -217,10 +275,10 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
 - **B2B is the growth engine.** Q3 2026 8-K: gross bookings +11%, B2B +19%, B2C +7%; revenue +12%; B2B revenue +23% [verified, SEC 8-K 4 Nov 2026].
 - **Expedia's own data:** AI-powered customer support at scale. CEO Ariane Gorin: agents are "strongest in discovery", agent traffic is "small but high intent", and AI wins come "inside its own apps" [verified, Skift 9 Nov 2026, PYMNTS].
 - **Rubric:**
-  - P3: account history, loyalty (One Key), Romie email ingestion.
+  - P3: account history, loyalty (One Key). Romie's email ingestion has reportedly been retired.
   - G2–G3.
-  - **B4**: full multi-vertical checkout plus post-booking changes, refunds and AI customer service.
-  - L2–L3: Romie disruption monitoring (alpha), trip alerts.
+  - **B4**: full multi-vertical checkout plus post-booking changes, refunds and AI customer service (the Hotels.com AI Agent now includes servicing).
+  - L2: trip alerts and an AI servicing agent. Romie's disruption monitoring was an alpha and is reportedly retired, so the earlier L3 is downgraded.
 - **Moat.** About 3M+ properties, flights, cars, activities, packages, and first-party traveler data. The Rapid API supplies other AI agents [inferred from B2B growth].
 - **Won't:** recommend non-Expedia inventory, or plan neutrally across suppliers (Ribbit and others argue Layla will tilt toward Expedia inventory [claimed/opinion]).
 
