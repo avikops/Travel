@@ -529,7 +529,7 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
    - A neutral orchestrator can: compare across OTAs and direct hotel channels (Hilton and others want direct); use sanctioned APIs, not scraping (avoiding United-style bans); and give one itinerary-level checkout or ledger even if transactions are per supplier.
    - Add "graduated delegation" policies like Priceline's: user-set spend and cancellation bounds.
 5. **Group and collaborative planning plus Europe-first availability.**
-   - Group planning is mostly a promise: Romie SMS (alpha), Airbnb (2027), Trip.com collaborative edit.
+   - Group planning is mostly a promise: Romie SMS (alpha, reportedly retired), Airbnb (2027), Vayo (promised), Trip.com collaborative edit.
    - US platforms are blocked or slow in the EU (ChatGPT apps, AI Mode booking). A GDPR-compliant, EU-native planner with real collaboration (voting, budgets, split payments) has a 12–18-month window.
 
 Honourable mentions:
@@ -546,7 +546,8 @@ Honourable mentions:
 | **Google** extends AI Mode booking to flights, adds Maps itinerary-in-navigation re-planning, expands Personal Intelligence globally | High | 6–18 mo | Strongest data and distribution; still no liability. Hyperlocal and accountability gaps survive. |
 | **Airbnb AI agent** (H1 2027), cross-platform, rich UI, group planning | High | 6–9 mo | Directly targets "planner with taste" plus experiences. Biggest consumer-brand threat. |
 | **Booking Holdings Lola/Vayo** scaling with paid concierge memberships | Medium-high | 6–18 mo | Copies the "AI + human concierge" model with inventory and margin advantages. |
-| **Expedia + Layla** integrated multi-agent planner, Romie disruption features at GA | Medium-high | 12–24 mo | Owns B4 servicing. Neutrality gap remains. |
+| **Expedia + Layla** integrated multi-agent planner; Hotels.com AI Agent (discovery + shopping + servicing) extended across brands | Medium-high | 12–24 mo | Owns B4 servicing. Romie retired, so disruption features would have to be rebuilt. Neutrality gap remains. |
+| **Meta Muse** taking a transaction cut on travel (Expedia hotels, Duffel flights) at WhatsApp scale | Medium | 6–18 mo | Distribution threat. Still no servicing, and Chesky says traffic is small today. |
 | **Apple Siri (iOS 27)** with personal context across Mail, Wallet and Maps | Medium | 6–12 mo | Could own on-trip retrieval on iPhone. Booking via App Intents means startups must be Siri-integrated. |
 | **Corporate TMCs going consumer or bleisure** (Navan, Perk MCP in Claude/ChatGPT) | Low-medium | 18–24 mo | Have the accountability stack; consumer economics unattractive to them. |
 | **ChatGPT** re-entering transactions or adding travel memory and alerts | Medium | 12–24 mo | Retreated once; would likely partner rather than own servicing. |
