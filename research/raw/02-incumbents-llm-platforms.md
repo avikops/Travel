@@ -687,3 +687,68 @@ Failures and accuracy
 - https://www.travelanywhere.blog/blog/chatgpt-vs-gemini-vs-claude-trip-planning-2026-tested-comparison
 - https://www.trripah.com/blog/ai-trip-planning-honest-review-2026
 - https://firstpagesage.com/seo-blog/which-ai-is-best-for-travel-planning/
+
+### Sources added in the gap-fill pass (17 Nov 2026)
+
+Google
+- https://blog.google/products/search/ai-mode-agentic-personalized/
+- https://blog.google/products/search/agentic-plans-booking-travel-canvas-ai-mode/
+- https://www.techradar.com/ai-platforms-assistants/googles-ai-mode-can-now-find-you-a-table-for-dinner-in-search-and-soon-itll-find-concert-tickets-too
+- https://www.searchenginejournal.com/google-extends-ai-travel-planning-and-agentic-booking-in-search/
+- https://www.engadget.com/ai/google-expands-ai-modes-flight-and-event-booking-features-170017656.html
+- https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/
+- https://viewfromthewing.com/google-ai-search-now-tracks-fares-completes-bookings-and-shows-points-prices-for-flights-and-hotels/
+- https://ppc.land/google-ai-mode-completes-hotel-bookings-with-10-partners-in-us-rollout/
+- https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/
+- https://support.google.com/chrome/answer/16821166?hl=en
+- https://www.bloomberg.com/news/articles/2026-01-28/google-chrome-says-ai-agent-can-now-browse-on-users-behalf
+
+OpenAI, Perplexity, Microsoft, Meta, Apple
+- https://skift.com/2026/07/06/chatgpt-apps-claude-connectors-travel-hands-on-test/
+- https://thenextweb.com/news/openai-acquires-odessia-ai-travel-agent
+- https://www.phocuswire.com/expedia-group-perplexity-comet-partnership-ai
+- https://skift.com/?p=731202 (Tripadvisor's Perplexity deal)
+- https://www.windowsnews.ai/article/corporate-travel-gets-an-ai-overhaul-cds-opens-hotel-booking-to-copilot-and-chatgpt-via-mcp.426959
+- https://skift.com/2026/04/14/expedia-ai-survey-travel-discovery-booking-8-percent/
+- https://skift.com/2026/10/21/meta-calls-travel-a-top-use-case-for-muse-and-zuck-wants-a-cut/
+- https://www.phocuswire.com/news/technology/meta-launches-ai-agent-travel-booking
+- https://cryptobriefing.com/meta-muse-expedia-ai-travel-bookings/
+- https://engadget.com/2254005/ios-27-with-siri-ai-will-be-available-on-september-14
+- https://macrumors.com/2026/06/08/ios-27-and-siri-ai-release-date/
+- https://www.engadget.com/2215572/apple-ios-27-preview/
+- https://macworld.com/article/3276244/with-ios-27-3-the-siri-ai-floodgates-are-about-to-open.html
+
+OTAs and incumbents
+- https://www.hospitality.today/article/expedia-learned-where-ai-breaks-it-wasnt-the-model
+- https://www.hospitalitynet.org/pr/4135182/fall-2026-product-release-expedia-group-launches-ai-powered-tools-and-services
+- https://www.phocuswire.com/news/technology/expedia-group-expands-ai-features-across-expedia-hotels-vrbo
+- https://www.hospitality.today/article/expedia-shifts-from-all-in-one-ai-chatbots-to-specialized-travel-agents
+- https://skift.com/2026/05/21/expedia-to-launch-agentic-ai-tools-for-b2b-partners/
+- https://www.phocuswire.com/news/startups/bookings-lola-gets-flight-booking-capabilities-100-million-dollar-planned-investment
+- https://www.phocuswire.com/news/startups/booking-holdings-launches-vayo-for-leisure-travel-planning
+- https://tbreak.com/lola-ai-travel-agent-booking-holdings-launch/
+- https://www.travelvoice.jp/20261110-160813
+- https://letsdatascience.com/news/booking-holdings-expands-ai-assistants-cuts-service-costs-2e909e40
+- https://www.phocuswire.com/news/finance/airbnb-q3-2026-earnings
+- https://news.airbnb.com/airbnb-q2-2026-financial-results
+- https://news.airbnb.com/airbnb-q1-2026-financial-results/
+- https://www.globenewswire.com/news-release/2026/04/29/3283490/0/en/KAYAK-Launches-Ask-AI-to-Simplify-Travel-Planning.html
+- https://tripadvisor.mediaroom.com/2026-04-23-How-AI-Is-Changing-the-Way-We-Plan-Travel
+- https://tripadvisor.mediaroom.com/2026-06-10-Building-Whats-Next-in-Experiences-Summer-Update
+- https://www.altexsoft.com/travel-industry-news/tripadvisor-debuts-ai-planner-for-video-based-trips/
+- https://rallies.ai/news/tripadvisor-best-western-launch-ai-trip-planner-featuring-200-hotels-for-2026-soccer
+- https://finviz.com/news/417307/tripadvisor-misses-badly-as-viator-growth-stalls-margin-targets-collapse-and-both-ceo-and-cfo-head-for-the-exit
+- https://www.businessinsider.jp/article/2611-earnings-tripadvisor-inc-q3-2026-earnings-call-summary/
+- https://www.earningswhispers.com/article/TRIP/r1759
+- https://cloud.google.com/customers/tripgenie
+- https://www.bolsamania.com/nota-de-prensa/mercados/tripcom-group-reinforces-ai-innovation-and-european-collaboration-at-itb-berlin--21929018.html
+- https://www.aap.com.au/aapreleases/cision20260720ae07684/
+- https://hts.hopper.com/news/summer-2026-platform-update
+- https://www.travolution.com/news/avelo-launches-disruption-assistance-with-hoppers-hts-technology/
+
+Disruption and accuracy
+- https://www.travelpulse.com/news/airlines-airports/american-airlines-rebooking-tool-is-changing-passengers-flights-without-their-knowledge
+- https://www.insideflyer.com/posts/american-airlines-ai-rebooks-passengers-without-consent-2/
+- https://www.ada.cx/blog/from-cancelled-to-confirmed-how-agentic-ai-resolves-airline-disruptions-end-to-end/
+- https://tripagent.ai/automated-flight-booking
+- https://keyt.com/lifestyle/travel/stacker-travel/2026/09/16/survey-ai-hallucinated-travel-destinations-for-1-in-6-users/

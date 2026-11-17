@@ -9,6 +9,8 @@
   - new facts on Lola (flights via Duffel, $100M commitment, US-only), Mindtrip Stays (Jul 2026), Vayo's booking status, Holiwise's ATOL claim, Axel pricing, Stippl, Pilot, Wanderboat, Tripnotes, Vacay, Tryp.com and the PhocusWire Hot 25 for 2027;
   - corrections to the GuideGeek "spin-out" (no evidence found) and to the Mindtrip Flights date (launched 6 May 2026).
   - Most long-tail players (iMean, Wonderplan, Trip Planner AI, Plan Harmony, JourneAI, Tripnotes) still have only directory, SEO or competitor-blog coverage. Their [review] tags reflect that.
+  - The GuideGeek messaging-channel [prior] tag was resolved.
+  - Four low-stakes [prior] tags remain unchecked: the Layla–Roam Around merger, Wanderlog's Gmail import, Mozio's B2B role, and Gordian's ancillaries heritage.
 - Tags:
   - **[verified]**: primary source, press release, or reputable trade press (Skift, PhocusWire, TechCrunch, GeekWire, Expedia IR).
   - **[claimed]**: the company's own marketing.
