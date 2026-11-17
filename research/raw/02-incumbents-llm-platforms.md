@@ -290,6 +290,10 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - Features Booking.com calls "agentic" (Smart Messenger and Auto-Reply, Oct 2025) are guest–property messaging, **not booking agents** [claimed].
   - AI Voice Support for trip management [claimed].
   - Daily AI trip-search visitors up **10x from Q2 to Q3 2026** [verified, CNBC 5 Nov 2026].
+  - **2026 status of the trip planner:** no new standalone planner launch was found.
+    - Reports say the planner is being folded into an embedded AI companion available at key points in the booking journey.
+    - On the Q1 2026 call (28 Apr), Booking.com cited enhanced natural-language search and **agentic post-booking flows that reduced support contacts**.
+    - The CFO described "pre-trip, in-trip, post-trip" experiences, including proactive itinerary adjustments [claimed, secondary call summaries].
 - **Priceline Penny**
   - Rebuilt and launched 3 Jun 2026 on **Anthropic Claude**, with Google Cloud and OpenAI for search and voice.
   - Multiple coordinated agents, a single-page booking experience, **flight purchase without leaving the conversation**.
@@ -301,10 +305,17 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - Searches live availability and prices for **hotels, restaurants, events, activities** and **books in the same chat**.
   - Partners: Booking.com, OpenTable, Kayak, Priceline, Agoda, FareHarbor, plus ResX, BLADE, Aero, SeatGeek, GetYourGuide, Nuitee, Ten Group (concierge).
   - Memberships: free, Plus $5/mo, VIP $25/mo (preferred rates, priority dining, human concierge access).
-  - Focus includes **hometown** dining and events, not just trips. Flights and cars come later.
-  - Terms warn that AI output may be inaccurate. **No independent hands-on reviews found.**
+  - Focus includes **hometown** dining and events, not just trips.
+  - **Flights added post-launch, powered by Duffel**. Cars are still to come.
+  - Booking Holdings has made a **$100M investment commitment**, "subject to continued advancement of the product and market commitments". Lola has about 20 staff [verified, PhocusWire].
+  - **US-only.** One report says Lola Plus was discontinued on 5 Nov 2026, with members moved to VIP [claimed, single outlet].
+  - Terms warn that AI output may be inaccurate. **No independent hands-on reviews found** (re-checked Nov 2026).
   - **This is the closest incumbent analogue to a startup "AI concierge with human backup".**
-- **Vayo**: second Booking Holdings assistant, private beta Oct 2026; reportedly books flights [claimed; inconsistent coverage]. Booking Holdings is running about five AI experiments in parallel [claimed, Skift 14 Sep 2026].
+- **Vayo**: second Booking Holdings assistant, Seattle, CEO Mike Fridgen; private beta from 14 Oct 2026; $100M planned [verified, PhocusWire, GeekWire].
+  - **Correction:** Vayo does **not** yet book flights. In beta it books **restaurants via OpenTable**.
+  - Flights and hotels are searched and then handed off to the supplier. Transactional flight and hotel booking was promised "in the coming weeks", and no report confirms it has shipped as of mid-Nov 2026 [verified].
+  - It monitors bookings made anywhere, including rival OTAs and direct.
+- Booking Holdings is running about five AI experiments in parallel [claimed, Skift 14 Sep 2026].
 - **CEO Glenn Fogel:**
   - AI discovery is popular but converts to few bookings today;
   - envisions **agent-to-agent** (the Booking agent talks to the traveler's personal agent);
@@ -320,13 +331,21 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - 15% fewer users needing a human;
   - support cost per booking down more than 17% YoY (Q3 2026) [verified: TechCrunch, CX Dive].
 - **AI travel agent planned for H1 2027.** Not a chatbot: a custom AI-native UI built from "hundreds of travel-specific interface components" (maps, comparisons, calendars, itineraries). It is explicitly **"not limited to Airbnb's platform"**, includes group planning, and voice is coming [verified, TechCrunch 5 Nov 2026].
-- Chesky argues general-purpose agents are a poor fit for trip planning because discovery is part of the experience.
-- Experiences and Services relaunched in May 2025 as a step toward "the whole trip" **[prior knowledge, not re-verified]**.
+  - On the Q3 2026 call, Chesky likened the UI to "generative UI".
+  - He said sponsored listings and ads will come only **after** the agent launches and is refined [verified, PhocusWire Q3].
+- Chesky argues general-purpose agents are a poor fit for trip planning because discovery is part of the experience. He also says Meta's Muse and similar agents generate "little traffic and even fewer bookings" for Airbnb [verified, Q3 call].
+- AI support: in Q2 2026 the assistant resolved **about 45%** of issues that start with it without a human, up from Q1 [verified, Airbnb Q2 release].
+- **Experiences:** Airbnb's Q1 2026 results say Experiences continued to scale and early results show it "becoming a demand flywheel" [verified, Airbnb Q1 release]. This replaces the earlier prior-knowledge note.
+  - The May 2025 relaunch of Experiences plus Services is consistent with this, but I found no 2026 metrics specific to Services [verified absence].
 - **Rubric today:** P3, G1, B2 (stays and experiences), L2 (support). **Threat level: high in 2027.** Airbnb has social and identity features, host supply and design capability.
 
 ### 3.4 Kayak
 
-- AI Mode (Oct 2025, built on ChatGPT and Kayak data) evolved into **"Ask AI"** globally from Apr 2026 [verified via Kayak note and reviews].
+- AI Mode (Oct 2025, built on ChatGPT and Kayak data) evolved into **"Ask AI"**, launched by press release on 23 Apr 2026 (GlobeNewswire 29 Apr) and timed to the World Cup [verified, primary].
+  - Natural-language chat, with live flight, hotel and car results updating **alongside** the conversation.
+  - It is a conversational search layer, not an autonomous booking agent.
+  - No later 2026 update was found.
+  - Kayak embeds the experience in its own site rather than shipping a ChatGPT app [claimed, analysis].
 - Kayak.ai test lab. **PriceCheck**: upload a booking screenshot and Kayak tells you if you overpaid.
 - Booking: "we don't handle the actual booking or payment" [verified, Kayak help]. That makes it **B1**.
 - **Kayak for Business** completes policy-compliant bookings with human confirmation and has an agent-to-agent connector (Amex GBT tie-up) [verified, Skift 2 Aug 2026].
@@ -344,8 +363,21 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
 - **Trips / AI trip builder**: GPT-4 plus about 1B reviews. An Aug 2024 rebuild used Tripadvisor's own recommender over reviews and **doubled save rates** [verified, Tripadvisor engineering blog; **older**]. Builds day-by-day plans from saved lists.
 - **ChatGPT app**: hotel deals, US only [verified]. Perplexity partnership: reviews power Perplexity hotel results (2025).
 - **Monetisation:** commissions via Viator (attractions) and TheFork (restaurants).
-- I could not verify 2026 Tripadvisor AI launches or strategy (search budget exhausted).
-- Rubric: P2–P3, G2, B1–B2 (Viator and TheFork in-house), L1.
+- **2026 AI activity** (resolved in the gap-fill pass) is mostly partnerships and demos. I found no single flagship agent launch:
+  - **Best Western × Tripadvisor "Go for the Goal"** (29 Jan 2026): an AI multi-city trip planner for World Cup fans covering 200+ hotels within 25 miles of host stadiums [verified, multiple outlets].
+  - **Tripadvisor and Viator in Claude and Alexa+** (newsroom, 23 Apr 2026): planning "wherever travelers choose to plan" [verified, primary].
+  - **Video-to-trip demo** at Nvidia GTC 2026: drop in an influencer video and get a bookable plan, inside Tripadvisor's "native AI experience" (experimental) [verified, PhocusWire/AltexSoft].
+  - Summer update (10 Jun 2026): AI trip planning and smarter discovery for Experiences [verified, primary].
+  - A claim that the AI trip planner became the default for all logged-in users on 12 May 2026 rests on a single unofficial page [claimed, unverified].
+- **Q3 2026: weak results** [claimed, secondary earnings summaries; verify against the 10-Q]:
+  - revenue of about $436M missed consensus;
+  - group revenue fell about 11%;
+  - growth at Viator/Experiences stalled;
+  - **CEO and CFO are both departing**;
+  - strategy is shifting to a single B2C "experiences flywheel", with Hotels & Other run at smaller scale;
+  - activist Starboard has called the pace of change "unacceptable".
+- **AI channel economics:** AI-referred traffic is **under 1%** of the total but converts at about **5x** the site average on Viator and about 2x on Tripadvisor. Tripadvisor cites integrations with Anthropic, OpenAI, Gemini and Meta [claimed, Q3 call summary].
+- Rubric: P2–P3, G2, B1–B2 (Viator and TheFork in-house), L1. Unchanged; the 2026 activity is distribution, not new booking depth.
 - **Moat:** review corpus, which is increasingly licensed to LLMs. That turns Tripadvisor into a data supplier rather than a destination [inferred].
 
 ### 3.7 Trip.com: TripGenie / Trip.Planner
@@ -357,6 +389,13 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - collaborative editing [claimed, Trip.com newsroom].
 - About **60% of TripGenie interactions relate to booking decisions** [claimed, ITB Berlin 2026]. Trip.Planner was named ITB Innovator 2026.
 - Mastercard demo planned for commercial rollout from early 2027.
+- **2026 additions** [claimed: Trip.com releases, Google Cloud case study]:
+  - Trip.Planner, Menu Assistant, Live Translation and Image Recognition;
+  - **in-chat agentic booking for eSIMs and attraction tickets** (2026);
+  - a "Live Guide" voice/multimodal mode on the Gemini Live API;
+  - retrieval via Gemini Agent Search, with **grounding checks against verifiable data**.
+  - Trip.com reports AI-assisted bookings up **400% YoY** and adoption of real-time AI features (translation, menus) up **300%** (Mar 2026).
+  - Its stated aim is to turn TripGenie into a "travel butler".
 - **Caveat:** itinerary edits do not automatically sync with supplier bookings [claimed, Sequenced analysis].
 - Rubric: P3, G3, **B3–B4** (flights, trains, hotels, attractions in one app; strong on rail in China and Asia), L3.
 - Probably the most complete incumbent "planner + booking + alerts" stack, but weak on Western long-tail local supply [inferred].
@@ -371,6 +410,8 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - rebooks on a new flight, or gives a partial refund;
   - explicitly a **"guarantee, not insurance"**;
   - missed-connection guarantee up to US$2,000 per passenger (Flair).
+- **HTS summer 2026 platform update** (11 Aug 2026): voice infrastructure for real-time AI voice servicing, and a model that judges whether a traveller's issue was **actually resolved** [claimed, HTS newsroom]. Avelo has also launched Disruption Assistance on HTS.
+- **Consumer Hopper app:** no new consumer AI feature found in 2026 [verified absence]. The 2026 AI work is B2B (HTS).
 - **FTC settlement: $35M** (2 Jul 2026) over hidden pre-selected Tip and VIP Support fees and a misrepresented Price Freeze, with no admission [verified, ftc.gov].
 - **Lesson:** fintech-style "protection" add-ons work as a business, but regulators are watching dark patterns in them.
 - Rubric: P2, G1, B2–B3, L3–L4 (disruption rebooking product).
@@ -412,6 +453,19 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
   - Handles disruption rebooking, eligible cancellations, bag tracking, eCredits.
   - Delta credits it, with simpler rebooking, for a **25+ point NPS gain during irregular operations** [verified: FTE, CX Dive].
   - **Failure:** it told a Platinum member her return flight was safe, then cancelled the ticket and quoted double to rebook. Delta fixed the logic; the assistant is still labelled BETA [verified: View from the Wing, Aviation A2Z, Aug 2026].
+- **American Airlines AURA / Connect Assist.** The most automatic consumer rebooking found in 2026.
+  - Expanded in 2026 to hubs including Chicago, Miami and Phoenix.
+  - It **moves delayed passengers onto later flights without asking first**.
+  - Passengers report wrong itineraries and missed connections, mainly on tight connections [claimed/press: TravelPulse, InsideFlyer].
+  - An earlier 2025 version let passengers self-rebook instantly.
+  - Lesson: autonomy without consent creates its own trust failures.
+- **Disruption and rebooking: who actually rebooks automatically (consumer side, Nov 2026)** [inferred from the evidence in this file and file 01]:
+  - **Carriers do, for their own flights.** American rebooks proactively without consent. Delta Concierge offers alternatives for the traveller to approve. HTS-powered Disruption Assistance (Frontier, Spirit, Avelo and others) is a paid guarantee.
+  - **OTAs service their own bookings** with AI support agents (Expedia, Booking.com, Airbnb, Priceline). None was found to rebook proactively across a whole trip.
+  - **General AI platforms do not rebook at all.** Google, OpenAI, Meta and Apple are not merchant of record.
+  - **AI-native startups monitor but don't rebook** (Vayo, Axel, Mindtrip agents). TripAgent.ai's claim is unverified.
+  - Only corporate TMCs (Navan, Perk) market autonomous cross-booking disruption handling, and even there it is partly unconfirmed.
+  - Ada's 2026 research: only **24%** of consumers say AI fully resolved their issue without a human [claimed, vendor research].
 - **United** bans third-party AI agents (11 Nov 2026) but stays bookable via Google Flights, Kayak and Hopper [verified].
 - **Hilton AI Planner** (web, Mar 2026, beta), expanding to Google AI Mode, ChatGPT and a Claude connector. Hilton's CIO says AI agents put OTAs "under real threat", meaning a route back to direct bookings [verified, Skift 29 Sep 2026].
 - **Marriott, IHG, Wyndham:** conversational search tools; Marriott's enterprise AI is in "Phase 3" [claimed]. No Marriott rebooking concierge found.
@@ -422,25 +476,27 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
 
 | Product | Pers. | Gran. | Booking | Live | Grounding | Collab | Accountability |
 |---|---|---|---|---|---|---|---|
-| Google AI Mode + Maps + Gemini | **P4** (opt-in Gmail/Photos) | G3–G4 | B2 (hotels via 10 partners, dining, events) | L2–L3 | Maps 300M POIs, Flights/Hotels feeds | Lists, Docs export, Canvas | None (not MoR) |
+| Google AI Mode + Maps + Gemini (+ Chrome auto browse) | **P4** (opt-in Gmail/Photos) | G3–G4 | B2 (US hotels via 10 partners; dining/events/appointments as guided hand-off; flights tracking and points only) | L2–L3 | Maps 300M POIs, Flights/Hotels feeds | Lists, Docs export, Canvas | None (not MoR) |
 | ChatGPT (+ apps) | P3 | G2–G3 | B1 | L1–L2 | Web + partner apps | Group chats/shared [inferred] | None |
 | Perplexity / Comet | P2 | G2 | B1–B2 (inconsistent) | L0–L1 | Cited web + Tripadvisor | Low | None |
 | Copilot Actions | P2 | G2 | B1–B2 | L1 | Partners (2025) | Low | None |
 | Claude (+ connectors) | P3 | G2–G3 | B1 | L1 | Web + Expedia/Booking/Viator MCP | Projects | None |
-| Meta Muse | P2–P3 | G2 | B2 (Expedia pay-now hotels) | L0 | Expedia API | Social (potential) | Delegated to Expedia |
-| Apple Siri/Maps | P4 potential | G1–G2 | B0 | L2 | On-device context, Apple Maps | iMessage | None |
-| Expedia (+Romie/Layla) | P3 | G2–G3 | **B4** | L2–L3 | Own inventory, email ingest | Romie group chat | MoR, support |
+| Meta Muse | P2–P3 | G2 | B2 (Expedia pay-now hotels; some flights via Duffel) | L0 | Expedia API, Duffel | Social (potential) | Delegated to Expedia |
+| Apple Siri AI (iOS 27, shipped Sep 2026)/Maps | P4 (personal context, opt-in) | G1–G2 | B0 | L2 | On-device context, Apple Maps | iMessage | None |
+| Expedia (+Layla; Romie retired) | P3 | G2–G3 | **B4** | L2 | Own inventory; Hotels.com AI Agent with servicing | Low (Romie group chat retired) | MoR, support |
 | Booking.com / Priceline Penny | P3 | G2 | **B4** | L2–L3 | Own inventory, Genius | Low | MoR, support |
-| Lola (Booking Holdings) | P3 | G2 | B3 (hotels+dining+events) | L2 | BH brands + partners | Unknown | MoR + VIP human concierge |
+| Lola (Booking Holdings; US-only) | P3 | G2 | B3 (hotels+dining+events+flights via Duffel) | L2 | BH brands + partners + Duffel | Itinerary sharing | MoR + VIP human concierge |
+| Vayo (Booking Holdings; beta) | P4 | G1–G2 | B1–B2 (restaurants only so far) | L3 | Inbox confirmations from any supplier | Planned | Unknown |
 | Airbnb (today / 2027 plan) | P3 | G1→G3? | B2 | L2 | Listings, reviews | Group planning (planned) | Host-guest policies, AirCover |
 | Kayak Ask AI | P2 | G1–G2 | B1 | L1 | Meta price data | Low | None |
 | Skyscanner | P1–P2 | G1 | B1 | L1 | Meta flights | Low | None |
-| Tripadvisor | P2–P3 | G2 | B1–B2 | L1 | ~1B reviews | Trips sharing | Viator policies |
-| Trip.com TripGenie | P3 | G3 | **B3–B4** | L3 | Own inventory incl. rail | Collaborative edit | MoR, 24/7 |
+| Tripadvisor (leadership transition) | P2–P3 | G2 | B1–B2 | L1 | ~1B reviews; licensed to Claude, Alexa+, ChatGPT, Perplexity | Trips sharing | Viator policies |
+| Trip.com TripGenie | P3 | G3 | **B3–B4** (incl. in-chat eSIM and attraction tickets) | L3 | Own inventory incl. rail; Gemini grounding | Collaborative edit | MoR, 24/7 |
 | Hopper/HTS | P2 | G1 | B2–B3 | **L3–L4** | Price prediction | Low | Guarantees (FTC history) |
 | Navan (Ava) | P3 | G3 | B4 | **L3–L4** | GDS/NDC | Admin | **Duty of care, 24/7 humans** |
 | Perk | P3 | G3 | B4 | L3 (L4 claimed) | GDS/NDC | Admin/Slack | Duty of care |
 | Delta Concierge | P3 | n/a | B4 (own flights) | **L4** | Own ops data | n/a | Carrier obligations |
+| American AURA/Connect Assist | P2 | n/a | B4 (own flights) | **L4** (proactive, without consent; error complaints) | Own ops data | n/a | Carrier obligations |
 
 ---
 
@@ -451,7 +507,7 @@ Most coverage is trade press (Skift, PhocusWire, earnings transcripts). Many blo
 3. **Hyperlocal and anti-cliché curation is nobody's priority.** Google ranks by popularity and review volume. OTAs rank by conversion and commission. Tripadvisor ranks by review counts. No incumbent shows a mechanism for "locals' picks", seasonality, or under-reviewed but excellent venues [inferred; I found no incumbent feature claims in this direction].
 4. **Interoperability is per-brand, not per-trip.** Each OTA app in ChatGPT is a silo. Google hands off to ten partners. Nobody stitches flights, trains, local transport and activities across suppliers into one door-to-door timeline. Trip.com comes closest, and only within its own inventory [inferred].
 5. **Agent access is closing on the supply side.** United's ban plus bank credential warnings mean browser-agent booking on consumer accounts is risky. Durable booking needs API, MCP or agent-to-agent agreements [verified + inferred].
-6. **Europe lags.** ChatGPT apps are reportedly unavailable in the EU. Google AI Mode hotel booking is US-only. Fogel flags DMA, AI Act and DSA friction [claimed/verified].
+6. **Europe lags.** ChatGPT apps are reportedly unavailable in the EU. Google AI Mode hotel booking is still US-only (Nov 2026), and AI Mode flight tracking excludes the EEA. Lola is US-only. Fogel flags DMA, AI Act and DSA friction [claimed/verified].
 7. **Accountability exists only in B2B and with carriers.** Consumer AI planners offer no guarantees. Lola's VIP concierge and Hopper/HTS guarantees are the only consumer-side signals.
 
 ---
